@@ -6,7 +6,7 @@ public class Cliente
 	private String telefone;
 
 	/**
-	 *Método construtor da classe
+	 *Método construtor da classe.
 	 *
 	 *@param	String		Nome do cliente
 	 *@param	String		Endereço do cliente

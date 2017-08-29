@@ -8,8 +8,7 @@ public class Main
 		PessoaFisica cliente1 = new PessoaFisica("Cliente1", "Rua A, Nº 0", "333-4587", "999.999.999-99");
 		PessoaJuridica cliente2 = new PessoaJuridica("Cliente2", "Rua B, Nº 0", "333-6771", "222.222.222-22", "Qualquer nome");
 		
-		//list.add(cliente1);
-		//list.add(cliente2);
+		
 		
 		Cliente c1 = cliente1;
 		Cliente c2 = cliente2;

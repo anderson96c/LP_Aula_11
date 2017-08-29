@@ -4,7 +4,7 @@ public class PessoaFisica extends Cliente
 	private String cpf;
 	
 	/**
-	 *Método construtor da classe
+	 *Método construtor da classe.
 	 *
 	 *@param	String		CPF da pessoa fisica
 	 */

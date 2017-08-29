@@ -5,7 +5,7 @@ public class PessoaJuridica extends Cliente
 	private String nomeFantasia;
 
 	/**
-	 *Método construtor da classe
+	 *Método construtor da classe.
 	 *
 	 *@param	String		CNPJ da pessoa juridica
 	 *@param 	String		Nome fantasia da empresa
