@@ -11,9 +11,9 @@ public class ContaBancaria
 	/**
 	 * Método construtor da classe.
 	 *
-	 * @param	c		Nome do cliente
-	 * @param	n		numero da conta
-	 * @param	s		saldo da conta
+	 * @param	c	Nome do cliente
+	 * @param	n	numero da conta
+	 * @param	s	saldo da conta
 	 */
 	public ContaBancaria(String c, int n, double s)
 	{
@@ -37,7 +37,7 @@ public class ContaBancaria
 	 *
 	 * @return	cliente
 	 */
-	public String getClient()
+	public String getCliente()
 	{
 		return cliente;
 	}
@@ -50,6 +50,16 @@ public class ContaBancaria
 	public int getNumConta()
 	{
 		return num_conta;
+	}
+
+	/**
+	 * Define o novo saldo como sendo o valor passado
+	 *
+	 * @param	novo saldo
+	 */
+	public void setSaldo(Double q)
+	{
+		saldo = q;
 	}
 
 	/**
@@ -90,4 +100,10 @@ public class ContaBancaria
 			saldo = saldo + q;
 		}
 	}
+
+	public String toString()
+	{
+		return "Client: " + getCliente() + "\n" + "Nº da conta: " + getNumConta() + "\n" + "Saldo atual: " + getSaldo() + "\n";
+	}
 }
+
