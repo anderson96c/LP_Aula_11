@@ -38,9 +38,11 @@ public class PessoaFisica extends Cliente
 	 */
 	public void imprimirDados()
 	{
+		System.out.println();
 		System.out.println("Nome: " + getNome());
 		System.out.println("Endereço: " + getEndereco());
 		System.out.println("Telefone: " + getTelefone());
 		System.out.println("CPF: " + cpf);
+		System.out.println();
 	}
 }

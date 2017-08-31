@@ -53,10 +53,11 @@ public class Empresa
 				pf++;
 		}
 
-		
+		System.out.println();
 		System.out.println("Total de clients cadastrado: " + empresa.size());
 		System.out.println("Total de PessoasJuridicas cadastradas: " + pj);
 		System.out.println("Total de PessoasFisicas cadastradas: " + pf);
+		System.out.println();
 	}
 	
 	/**
@@ -64,10 +65,12 @@ public class Empresa
 	 */	
 	public void printClientes()
 	{
-			for(int i = 0; i<empresa.size(); i++)
+		System.out.println();
+		for(int i = 0; i<empresa.size(); i++)
 		{
 			empresa.get(i).imprimirDados();
 		}
+		System.out.println();
 	}
 
 }
