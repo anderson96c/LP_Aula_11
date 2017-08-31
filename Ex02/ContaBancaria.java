@@ -101,6 +101,12 @@ public class ContaBancaria
 		}
 	}
 
+	/**
+	 * Sobescrita da função na filha ContaPoupanca
+	 */
+	public void calcularNovoSaldo(double t)
+	{}
+
 	public String toString()
 	{
 		return "Client: " + getCliente() + "\n" + "Nº da conta: " + getNumConta() + "\n" + "Saldo atual: " + getSaldo() + "\n";
