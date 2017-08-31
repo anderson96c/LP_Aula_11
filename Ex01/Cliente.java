@@ -1,8 +1,18 @@
-
+/**
+* Cliente
+*
+* Define um objeto Cliente com nome, endereço e telefone
+* com métodos para acessar e modificar esses atributos
+*
+* @author Anderson Caio da Fonseca Santos
+*/
 public class Cliente
 {
+	//Nome do Cliente
 	private String nome;
+	//Endereco do Cliente
 	private String endereco;
+	//Telefone do Cliente
 	private String telefone;
 
 	/**
@@ -68,7 +78,10 @@ public class Cliente
 	{
 		telefone = t;
 	}
-
+	
+	/**
+	 * Sobrescrita nas classes filhas
+	 */
 	public void imprimirDados()
 	{}
 

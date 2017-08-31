@@ -1,6 +1,15 @@
-
+/**
+* PessoaFisica
+* 
+* Herda atributos e métodos da classe Cliente
+* adiciona o atributo cpf e métodos para acesso e modificação
+* desse atributo
+*
+* @author Anderson Caio da Fonseca Santos
+*/
 public class PessoaFisica extends Cliente
 {
+	//CPF do Cliente
 	private String cpf;
 	
 	/**

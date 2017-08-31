@@ -1,4 +1,13 @@
 
+/**
+* PessoaJuridica
+* 
+* Herda atributos e métodos da classe Cliente
+* adiciona os atributos cnpj e nome fantasia e métodos para 
+* acesso e modificação desses atributos
+*
+* @author Anderson Caio da Fonseca Santos
+*/
 public class PessoaJuridica extends Cliente
 {
 	private String cnpj;
